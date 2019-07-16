@@ -1,0 +1,63 @@
+$color: (
+  eggPlant: #960071,
+  bluish: #00315b,
+  orangee: #fe7300,
+  red-light: lighten(red, 25%)
+);
+@function color($color-name) {
+  @return map-get($map: $color, $key: $color-name);
+}
+
+.alert {
+  background: color(red-light);
+  padding: 13px;
+  color: #fafafa;
+}
+
+.song {
+  &_details_container {
+    // padding: 20px;
+    margin-top: 50px;
+    box-shadow: 2px 10px 15px rgba(0, 0, 0, 0.27);
+  }
+
+  &_header {
+    text-align: center;
+    color: lightblue;
+    background: darkslategrey;
+    padding: 10px;
+  }
+
+  &_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  &_content {
+    padding: 5px 20px;
+  }
+
+  &_title {
+    color: color(eggPlant);
+    margin-bottom: 8px;
+    span {
+      color: darkgray;
+    }
+  }
+
+  &_artist {
+    color: color(orangee);
+    margin-bottom: 8px;
+
+    span {
+      color: darkslategray;
+    }
+  }
+  &_duration {
+    color: lightcoral;
+    margin-bottom: 8px;
+    font-size: 17.7px;
+  }
+}
