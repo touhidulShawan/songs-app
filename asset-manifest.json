@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/songs-app/static/css/main.c6c89b66.chunk.css",
+    "main.js": "/songs-app/static/js/main.ee620747.chunk.js",
+    "main.js.map": "/songs-app/static/js/main.ee620747.chunk.js.map",
+    "runtime~main.js": "/songs-app/static/js/runtime~main.99a053a3.js",
+    "runtime~main.js.map": "/songs-app/static/js/runtime~main.99a053a3.js.map",
+    "static/js/2.bab56663.chunk.js": "/songs-app/static/js/2.bab56663.chunk.js",
+    "static/js/2.bab56663.chunk.js.map": "/songs-app/static/js/2.bab56663.chunk.js.map",
+    "index.html": "/songs-app/index.html",
+    "precache-manifest.843d9ea527c74a9427b8db6de8a9ca1b.js": "/songs-app/precache-manifest.843d9ea527c74a9427b8db6de8a9ca1b.js",
+    "service-worker.js": "/songs-app/service-worker.js",
+    "static/css/main.c6c89b66.chunk.css.map": "/songs-app/static/css/main.c6c89b66.chunk.css.map",
+    "static/media/Camila-Cabello-Shawn-Mendes-Señorita-Behind--Scenes.jpg": "/songs-app/static/media/Camila-Cabello-Shawn-Mendes-Señorita-Behind--Scenes.dcdbca7c.jpg",
+    "static/media/Hold Me While You Wait.jpg": "/songs-app/static/media/Hold Me While You Wait.9b341777.jpg",
+    "static/media/beautiful_people.jpg": "/songs-app/static/media/beautiful_people.7e800b16.jpg",
+    "static/media/idon`tCare.png": "/songs-app/static/media/idon`tCare.55fe6ab2.png",
+    "static/media/old_town_road.jpeg": "/songs-app/static/media/old_town_road.639172a0.jpeg"
+  }
+}
